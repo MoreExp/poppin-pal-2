@@ -1,0 +1,156 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 380px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.img-item
+{
+  width: 100%;
+}
+
+.img-cart
+{
+  width: 70%;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color:#ffcc00;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.card-wrap {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.card-wrap .card {
+  flex: 1 0 0;
+}
+.card-wrap .card .btn {
+  margin-top: auto;
+}
+.card-wrap .card-body {
+  display: flex;
+  flex-direction: column;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: black;
+  width: 25px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 25px;
+}
+
+.btnpop
+{
+    margin: 10px 0 5px;
+    height: 45px;
+    width: 100%;
+}
+form .btnpop button
+{
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+form .mb-3 input
+{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid silver;
+}
+form .mb-3 label
+{
+    font-weight: 600;
+}
+
+form .forgot-pass
+{
+    margin-top: -8px;
+}
+form .forgot-pass a
+{
+    color: #3498db;
+    text-decoration: none;
+}
+form .forgot-pass a:hover
+{
+    text-decoration: underline;
+}
+.modal-footer .signup-link
+{
+    text-align: center;
+}
+.modal-footer .signup-link a
+{
+    color: #3498db;
+    text-decoration: none;
+}
+.modal-footer .signup-link a:hover
+{
+    text-decoration: underline;
+}
+.rmb
+{
+    margin: 0 0px 7px 0;
+}
+.rmb label
+{
+    font-weight: 500;
+    font-size: 15px;
+}
+.rmb input
+{
+    margin: 0 8px 0 0;
+}
+.icon-image {
+width: 120px; /* Adjust the width as needed */
+height: 120px; /* Adjust the height as needed */
+}
+.lead
+{
+  text-align: justify;
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+#retrievepassword-link
+{
+  text-decoration: none;
+}
+#retrievepassword-link:hover
+{
+  text-decoration: underline;
+}

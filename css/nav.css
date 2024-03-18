@@ -1,0 +1,44 @@
+.nav-item {
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    transition: all 0.4s;
+    cursor: pointer;
+  }
+  .nav-item span,#cartdisplay {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+  }
+  .nav-item span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .nav-item:hover span {
+    padding-right: 25px;
+  }
+  .nav-item:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .nav-item #cartdisplay:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .nav-item:hover #cartdisplay {
+    padding-right: 25px;
+  }
+  .nav-item:hover #cartdisplay:after {
+    opacity: 1;
+    right: 0;
+  }
